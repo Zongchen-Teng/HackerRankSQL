@@ -1,0 +1,11 @@
+-- HackerRank SQL Question 13: Weather Observation Station 8
+
+/* 
+1. QUERY ALL CITY NAMES FROM STATION 
+2. HAS VOWEL STARTING AND ENDING 
+3. NO DUPLICATE
+*/
+
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE CITY LIKE '[a,e,i,o,u]%[a,e,i,o,u]'

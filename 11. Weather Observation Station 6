@@ -1,0 +1,5 @@
+-- HackerRank SQL Question 11: Weather Observation Station 6
+
+SELECT CITY 
+FROM STATION 
+WHERE CITY LIKE '[a, e, i, o, u]%'

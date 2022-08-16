@@ -1,0 +1,4 @@
+-- HackerRank SQL Question 3: Select All
+
+SELECT * 
+FROM CITY 

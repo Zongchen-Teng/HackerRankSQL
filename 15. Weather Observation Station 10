@@ -1,0 +1,11 @@
+-- HackerRank SQL Question 1: Weather Observation Station 10
+
+/* 
+1. LIST THE CITY NAMES 
+2. DOES NOT END WITH VOWELS 
+3. NO DUPLICATES 
+*/ 
+
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE CITY NOT LIKE '%[a,e,i,o,u]'

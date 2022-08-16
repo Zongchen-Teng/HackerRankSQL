@@ -1,0 +1,5 @@
+-- HackerRank SQL Question 6: Japanese Cities' Names
+
+SELECT NAME 
+FROM CITY 
+WHERE COUNTRYCODE = 'JPN'

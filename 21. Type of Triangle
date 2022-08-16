@@ -1,0 +1,14 @@
+-- HackerRank SQL Question 21: Type of Triangle
+
+/*
+1. IDENTIFY EACH RECORD IN TRAINGLES 
+*/
+
+SELECT CASE 
+    WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
+    WHEN A = B AND B = C THEN 'Equilateral' 
+    WHEN A = B OR B = C OR C = A THEN 'Isosceles'
+    WHEN A <> B AND B <> C THEN 'Sca`lene'
+    END
+FROM TRIANGLES
+

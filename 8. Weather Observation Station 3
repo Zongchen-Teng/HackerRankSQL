@@ -1,0 +1,5 @@
+-- HackerRank SQL Question 8: Weather Observation Station 3
+
+SELECT DISTINCT(CITY) 
+FROM STATION 
+WHERE ID % 2 = 0 
